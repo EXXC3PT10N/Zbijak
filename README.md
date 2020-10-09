@@ -2,6 +2,8 @@
 Gra zbijak [UWP]
 Gra polega na klikaniu w pojawiające się krety, tak aby zdobyć jak najwięcej punktów.
 ## Funkcje 
+- menu
+- strona z pomocą
 - 3 poziomy trudności
 - ranking dla najlepszych graczy
 - dwa rodzaje kretów
