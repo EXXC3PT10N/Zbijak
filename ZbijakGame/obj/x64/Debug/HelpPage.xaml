@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="ZbijakGame.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ZbijakGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <AppBarButton x:ConnectionId='2' x:Name="ABtnBack" HorizontalAlignment="Left" Icon="Back" Label="Menu" Margin="10,0,0,10" VerticalAlignment="Bottom"                        />
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" >
+            Zasady gry: wybierz poziom trudności, a następnie klikaj w pojawiające się krety.
+            Wraz z upływem czasu krety zaczną znikać coraz szybciej. Istnieje szansa na trafienie złotego kreta z bonusowymi punktami. <LineBreak/><LineBreak/>
+
+            
+            Aplikację wykonał Mikołaj Szczubiał <LineBreak/><LineBreak/>
+            Music and sound effects by Eric Matyas <LineBreak/>
+
+            www.soundimage.org <LineBreak/><LineBreak/>
+            
+            Graphics: http://clipart-library.com/
+        </TextBlock>
+    </Grid>
+</Page>
+

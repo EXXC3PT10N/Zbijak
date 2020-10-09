@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-064RPV6</Machine>
+    <WindowsUser>Mikolaj</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>e152d324-327d-49f8-ad6b-551998cb0dee</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Bartłomiej_Pietrzak</PackageIdentityPublisher>
+    <IntermediateOutputPath>H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CB511313EC2F23AE2AF91F32E35CC7673A6BB64FA54A694C383EC9BC93CE5032</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e152d324-327d-49f8-ad6b-551998cb0dee_1.0.0.0_x64__9etx07gdp5apw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e152d324-327d-49f8-ad6b-551998cb0dee_9etx07gdp5apw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e152d324-327d-49f8-ad6b-551998cb0dee</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Bartłomiej_Pietrzak</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:50:46.992</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\bg_music.mp3">
+      <PackagePath>Assets\bg_music.mp3</PackagePath>
+      <Modified>2020-10-09T18:13:40.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\goldenMole.png">
+      <PackagePath>Assets\goldenMole.png</PackagePath>
+      <Modified>2020-10-09T18:13:40.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\heart.png">
+      <PackagePath>Assets\heart.png</PackagePath>
+      <Modified>2020-10-09T18:13:40.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\hole.png">
+      <PackagePath>Assets\hole.png</PackagePath>
+      <Modified>2020-10-09T18:13:40.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-10-09T18:13:40.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\mole.png">
+      <PackagePath>Assets\mole.png</PackagePath>
+      <Modified>2020-10-09T18:13:40.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\mole_hide.mp3">
+      <PackagePath>Assets\mole_hide.mp3</PackagePath>
+      <Modified>2020-10-09T18:13:40.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\mole_hitted.mp3">
+      <PackagePath>Assets\mole_hitted.mp3</PackagePath>
+      <Modified>2020-10-09T18:13:40.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-10-09T18:13:40.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T20:46:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-10-09T18:50:26.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\ZbijakGame.dll">
+      <PackagePath>ZbijakGame.dll</PackagePath>
+      <Modified>2020-10-09T18:50:46.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\ZbijakGame.exe">
+      <PackagePath>ZbijakGame.exe</PackagePath>
+      <Modified>2020-10-09T18:50:46.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\bin\x64\Release\ilc\ZbijakGame.pdb">
+      <PackagePath>ZbijakGame.pdb</PackagePath>
+      <Modified>2020-10-09T18:50:46.965</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.27413.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.27413.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x86\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.27413.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.27413.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-arm\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.27413.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.27413.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-arm\1.7.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

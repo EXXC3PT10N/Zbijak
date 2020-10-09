@@ -1,0 +1,11 @@
+/out:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\\"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\TransformedSRWR"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\\"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\\"
+/ref:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\csc"

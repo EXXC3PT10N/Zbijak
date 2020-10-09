@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="ZbijakGame.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ZbijakGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Text="Zbijak" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+        <Button x:ConnectionId='2' x:Name="BtnPlay" Content="Zagraj" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="0,116,0,0" Width="418" Height="80" FontSize="36"                      />
+        <Button x:ConnectionId='3' x:Name="BtnHelp" Content="Pomoc" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="0,209,0,0" Width="418" Height="80" FontSize="36"                      />
+        <Button x:ConnectionId='4' x:Name="BtnExit" Content="Wyjście" HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="0,301,0,0" Width="418" Height="80" FontSize="36"                           />
+
+
+    </Grid>
+</Page>
+

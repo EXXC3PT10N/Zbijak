@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="ZbijakGame.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ZbijakGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid x:Name="gridDifficulty" Visibility="Visible">
+            <Button x:Name="BtnEasy" Content="Łatwy" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="25" Width="240" Height="80" Click="BtnEasy_Click"/>
+            <Button x:Name="BtnMedium" Content="Średni" HorizontalAlignment="Center" Margin="0,95,0,0" VerticalAlignment="Top" FontSize="25" Width="240" Height="80" Click="BtnMedium_Click"/>
+            <Button x:Name="BtnHard" Content="Trudny" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" FontSize="25" Width="240" Height="80" Click="BtnHard_Click"/>
+
+        </Grid>
+
+        <Grid x:Name="gridBoard" Visibility="Collapsed">
+            <TextBlock x:Name="TblPoints" HorizontalAlignment="Left" Margin="10,144,0,0" Text="Punkty:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+            <TextBox x:Name="TbxPoints" HorizontalAlignment="Left" Margin="165,144,0,0" PlaceholderText="0" TextAlignment="Right" VerticalAlignment="Top" FontSize="48" Width="181" IsEnabled="False"  />
+            <TextBlock x:Name="TblGameOver" HorizontalAlignment="Center"  Text="GameOver" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="48" Visibility="Collapsed" Margin="0,0,0,20"/>
+
+        </Grid>
+        <Grid x:Name="gridAfterGameOver" Visibility="Collapsed">
+            <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Text="Nazwa" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Width="218"/>
+            <TextBox x:Name="tbxName" HorizontalAlignment="Center" Margin="0,55,0,0" PlaceholderText="nazwa" VerticalAlignment="Top" FontSize="30" Width="217"/>
+            <Button x:Name="btnSave" Content="Zapisz" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top"  FontSize="30" Width="156" Click="BtnSave_Click"/>
+            <TextBlock x:Name="tblRank" HorizontalAlignment="Center"  Text="Ranking" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Margin="0,271,0,0"/>
+            <ComboBox HorizontalAlignment="Center" Margin="0,222,0,0" VerticalAlignment="Top" Width="156" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Łatwy"/>
+                <ComboBoxItem Content="Średni"/>
+                <ComboBoxItem Content="Trudny"/>
+                <ComboBoxItem Content="Wszystko"/>
+
+            </ComboBox>
+
+
+        </Grid>
+        <AppBarButton x:Name="ABtnBack" HorizontalAlignment="Left" Icon="Back" Label="Menu" Margin="10,0,0,10" VerticalAlignment="Bottom" Click="ABtnBack_Click" />
+       
+    </Grid>
+</Page>

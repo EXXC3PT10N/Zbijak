@@ -1,0 +1,47 @@
+ /debug:pdbonly
+ /nowarn:0436;0618;1668;1685;1701;1702
+ /debug+
+ /nostdlib+
+ /optimize+
+ /out:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop.dll"
+ /pdb:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop.pdb"
+ /platform:x64
+ /warnaserror+
+ /unsafe
+ /nologo
+ /target:library
+ /define:MCG_PRE_BUILD
+ /define:WIN64
+ /define:AMD64
+ /define:ALIGN_ACCESS
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.CoreLib.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.Interop.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Private.Uri.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.Reflection.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.DispatchProxy.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Reflection.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Runtime.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Runtime.InteropServices.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Numerics.Vectors.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Threading.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Diagnostics.Debug.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Dynamic.Runtime.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Runtime.Extensions.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.Collections.dll"
+ /r:"H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\in\System.ObjectModel.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.sharedlibrary-x64\1.7.3\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\Adapters.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\AssemblyInfo.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\Data.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\Helpers.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\ImplTypes.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\PInvoke.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\SafeTypes.g.cs"
+ "H:\Visual Studio Projects\zbijak_github\ZbijakGame-master\ZbijakGame\obj\x64\Release\ilc\intermediate\ZbijakGame.McgInterop\SharedStubs.g.cs"
